@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: red;
+    position: relative;
+}
+#contain{
+    background-color: rosybrown;
+    margin: auto;
+    width: 850px;
+    height: 350px;
+    border: 1px solid black;
+}
+#face{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 240px;
+    left: 10px;
+    border: 3px solid black;
+    z-index: 1;
+}
+#line{
+    background-color: white;
+    width: 850px;
+    height: 60px;
+    position: relative;
+    
+    top: 187px;
+    left: -1px;
+}
+h4{
+    position: absolute;
+    top: 245px;
+    left: 415px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    float: right;
+}
+#bar{
+border: solid white;
+    position: relative;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  top: -47px;
+  left: -520px;
+  z-index: 1;
+  border-radius: 1px;
+
+}
+.some{
+    display:inline;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: bold;
+}
+.some:hover{
+background-color: blue;
+
+}
+.some:active{
+    background-color: white;
+}
+header a{
+    text-decoration: none;
+    color: black; 
+}
+
+.column{
+    background-color: blue;
+    height: 400px;
+    width: 328px;
+    position: absolute;
+    margin-left: 287px;
+    border: 1px solid black;
+    top: 345px;
+    z-index: -1;
+    
+}
+.column::after{
+    content: " ";
+    position: absolute;
+    background-color: yellow;
+    height: 395px;
+    width: 512px;
+    margin-left: 332px;
+    padding: -10px;
+    border-spacing: 10px;
+    border: 1px solid black;
+}
+#left{
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    left: 288px;
+    top: 241px;
+    position: relative;
+    z-index: 1;
+    border: 1px solid peru;
+}
+
+#left::after{
+    content: " ";
+    background-color: purple;
+    height: 150px;
+    width: 150px;
+    margin-left: 697px;
+    top: -80px;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid peru;
+}
+.one{
+    border: 1px solid white;
+     padding-left: 10px;
+    background-color:white;
+    border-radius: 2px;
+    position: absolute;
+    margin-left: -200px;
+    top: 230px;
+    font-weight: 800;
+    font-family: sans-serif;
+  }
+  .one img{
+      width: 15px;
+  }
+  .two{
+      border: 1px solid white;
+      padding-left: 10px;
+     background-color:white;
+     border-radius: 1px;
+     position: absolute;
+     margin-left: -130px;
+     top: 230px;
+     font-weight: 800;
+     font-family: sans-serif;
+  
+  }
+  .two img{
+      width: 15px;
+     
+  }
+  .three{
+      border: 1px solid white;
+      padding-left: 10px;
+     background-color:white;
+     border-radius: 1px;
+     position: absolute;
+     margin-left: -46px;
+     top: 230px;
+     font-weight: 800;
+     font-family: sans-serif;
+  
+  }
+  
+  .three img{
+      width: 15px;
+  
+  }
+  .four{
+      border: 1px solid white;
+      padding-left: 10px;
+     background-color:white;
+     border-radius: 1px;
+     position: absolute;
+     margin-left: 54px;
+     top: 230px;
+     font-weight: 800;
+     font-family: sans-serif;
+     
+  }
+  .four img{
+      width: 15px;
+      margin-left: 12px;
+      
+  }
+  footer{
+    position: absolute;
+    top: 750px;
+  } 
